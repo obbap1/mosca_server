@@ -1,0 +1,21 @@
+{
+  "name": "iot-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^6.5.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2"
+  },
+  "dependencies": {
+    "dotenv": "^8.1.0",
+    "fastify": "^2.9.0",
+    "mongoose": "^5.7.4"
+  }
+}
