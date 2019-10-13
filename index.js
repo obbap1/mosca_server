@@ -2,6 +2,8 @@ require('dotenv').config();
 const path = require('path');
 const server = require('./server');
 const config = require('./config');
+const mqtt = require('./mqtt');
+const database = require('./database');
 
 const SSL_KEY = path.join(__dirname, './certs/key.pem');
 const SSL_CERT = path.join(__dirname, './certs/certificate.pem');
